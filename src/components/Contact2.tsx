@@ -9,9 +9,7 @@ const Contact2 = () => {
     formState: {},
   } = useForm<CreateMailInput>();
 
-  const {  } = trpc.useMutation(["mail.createMail"], {
-    onSuccess: () => {},
-  });
+  const {} = trpc.useMutation(["mail.createMail"], {});
 
   return (
     <div id="contact" className="w-full flex flex-row justify-center gap-8">
