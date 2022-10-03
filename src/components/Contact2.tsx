@@ -44,7 +44,7 @@ const Contact2 = () => {
                     href="https://www.linkedin.com/company/contract2human/"
                     className=" "
                   >
-                    <FaLinkedinIn />
+                    <button><FaLinkedinIn /></button>
                   </Link>
                 </div>
               </div>

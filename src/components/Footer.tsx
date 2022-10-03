@@ -3,14 +3,14 @@ const Footer = () => {
   return (
     <div className="text-center mt-20 ">
       <p className="">Unterstützt von:</p>
-      <div className="flex flex-row place-content-center">
-        <div className="">
+      <div className="flex flex-row gap-6 place-content-center">
+        <div className="mr-4">
           <Image
             src="/UniWien.png"
             alt="/"
             width="400"
             height="200"
-            className=" "
+            className=""
           />
         </div>
  
