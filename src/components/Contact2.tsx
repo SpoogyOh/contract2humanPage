@@ -1,4 +1,3 @@
-import { router } from "@trpc/server";
 import { useForm } from "react-hook-form";
 import { CreateMailInput } from "../types/mailSchema";
 import { trpc } from "../utils/trpc";
@@ -7,18 +6,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const Contact2 = () => {
   const {
-    handleSubmit,
-    register,
-    formState: { isSubmitting, isSubmitSuccessful },
+    formState: {},
   } = useForm<CreateMailInput>();
 
   const { mutate } = trpc.useMutation(["mail.createMail"], {
     onSuccess: () => {},
   });
-
-  function onSubmit(values: CreateMailInput) {
-    mutate(values);
-  }
 
   return (
     <div id="contact" className="w-full flex flex-row justify-center gap-8">
@@ -44,7 +37,9 @@ const Contact2 = () => {
                     href="https://www.linkedin.com/company/contract2human/"
                     className=" "
                   >
-                    <button><FaLinkedinIn /></button>
+                    <button>
+                      <FaLinkedinIn />
+                    </button>
                   </Link>
                 </div>
               </div>
