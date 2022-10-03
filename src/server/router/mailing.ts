@@ -6,7 +6,7 @@ export const mailRouter = createRouter().mutation("createMail", {
   input: createMailschema,
 
   async resolve({ ctx, input }) {
-    const { email, lastName, firstName, message } = input;
+    const { email, lastName, firstName,  } = input;
 
     const mail = await ctx.prisma.mailingList.create({
       data: {
