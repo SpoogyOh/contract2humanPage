@@ -9,7 +9,7 @@ const Contact2 = () => {
     formState: {},
   } = useForm<CreateMailInput>();
 
-  const { mutate } = trpc.useMutation(["mail.createMail"], {
+  const {  } = trpc.useMutation(["mail.createMail"], {
     onSuccess: () => {},
   });
 
