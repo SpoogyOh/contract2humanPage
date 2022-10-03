@@ -20,4 +20,9 @@ export default defineNextConfig({
     locales: ["en"],
     defaultLocale: "en",
   },
-});
+})
+module.exports = {
+  images: {
+    unoptimized: true,
+  },
+};
