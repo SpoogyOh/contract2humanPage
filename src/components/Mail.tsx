@@ -1,4 +1,3 @@
-import { router } from "@trpc/server";
 import { useForm } from "react-hook-form";
 import { CreateMailInput } from "../types/mailSchema";
 import { trpc } from "../utils/trpc";
@@ -7,12 +6,10 @@ const Mail = () => {
   const {
     handleSubmit,
     register,
-    formState: { isSubmitting, isSubmitSuccessful },
+    formState: { isSubmitSuccessful },
   } = useForm<CreateMailInput>();
 
-  const { mutate } = trpc.useMutation(["mail.createMail"], {
-    onSuccess: () => {},
-  });
+  const { mutate } = trpc.useMutation(["mail.createMail"], {});
 
   function onSubmit(values: CreateMailInput) {
     mutate(values);
