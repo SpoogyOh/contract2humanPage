@@ -42,7 +42,7 @@ const HowItWorks = () => {
             <div>
               <Image
                 src="/Monitor2.png"
-                alt="/"
+                alt="/a"
                 width="500"
                 height="50"
                 className=""
