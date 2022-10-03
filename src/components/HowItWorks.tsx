@@ -41,8 +41,8 @@ const HowItWorks = () => {
             </div>
             <div>
               <Image
-                src="/Monitor2.png"
-                alt="/a"
+                src="/Monitor2v1.png"
+                alt="/"
                 width="500"
                 height="50"
                 className=""
@@ -53,7 +53,7 @@ const HowItWorks = () => {
           <div className="gap-8 columns-2 border-b-2 border-dashed">
             <div>
               <Image
-                src="/Monitor3.png"
+                src="/Monitor3v1.png"
                 alt="/"
                 width="500"
                 height="50"
