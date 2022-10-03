@@ -6,14 +6,15 @@
   "plugins": ["@typescript-eslint"],
   "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
   "rules": {
-    "react/no-unescaped-entities": "off"
-  },
-  "no-unused-vars": [
-    "error",
-    {
-        "ignoreRestSiblings": true,
-        "destructuredArrayIgnorePattern": "[A-Z]",
-        "caughtErrors": "none"
-    }
-]
+    "react/no-unescaped-entities": "off", 
+     "no-unused-vars": [
+      "error",
+      {
+          "ignoreRestSiblings": true,
+          "destructuredArrayIgnorePattern": "[A-Z]",
+          "caughtErrors": "none"
+      }]
+  }
+ 
+
 }
