@@ -19,11 +19,11 @@ const Mail = () => {
   }
 
   return (
-    <div id="waitlist" className="w-full text-center bg-white">
+    <div id="waitlist" className="w-full lg:h-screen text-center">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
-        <h2 className="py-4">Möchtest du es ausprobieren?</h2>
+        <h2 className="py-4">Do you want to try it out?</h2>
         <p className="text-xl tracking-widest uppercase text-red">
-          Trag dich in die Warteliste ein!
+          Join our waiting list.
         </p>
         <div className="">
           <div className=" w-full h-auto rounded-xl lg:p-4">
@@ -35,14 +35,14 @@ const Mail = () => {
                       <input
                         className="border-2 rounded-lg p-3 flex border-gray-300"
                         type="text"
-                        placeholder="Vorname"
+                        placeholder="First Name"
                         {...register("firstName")}
                       />
                       <div className="pr-2"></div>
                       <input
                         className="border-2 rounded-lg p-3 flex border-gray-300"
                         type="text"
-                        placeholder="Nachname"
+                        placeholder="Last Name"
                         {...register("lastName")}
                       />
                     </div>
@@ -58,7 +58,7 @@ const Mail = () => {
                       className="border-2 rounded-lg p-3 flex border-gray-300 justify-center"
                       disabled={isSubmitSuccessful}
                     >
-                      {isSubmitSuccessful ? "Danke!" : "Trag dich ein."}
+                      {isSubmitSuccessful ? "Thanks for Joining" : "Join"}
                     </button>
                   </div>
                 </div>

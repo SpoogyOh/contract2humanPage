@@ -4,8 +4,9 @@ import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import Mail from "../components/Mail";
 import HowItWorks from "../components/HowItWorks";
-import Contact from "../components/Contact";
 
+import Footer from "../components/Footer";
+import Contact2 from "../components/Contact2";
 
 export default function Home() {
   return (
@@ -18,9 +19,12 @@ export default function Home() {
       <Navbar />
       <Main />
       <HowItWorks />
+      <div className="py-80"></div>
       <Mail />
-      <Contact />
+      <div className="py-2"></div>
 
+      <Contact2 />
+      <Footer />
     </div>
   );
 }

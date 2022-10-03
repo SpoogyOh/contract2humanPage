@@ -17,7 +17,7 @@ const Navbar = () => {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
     } else {
-      setNavBg("#ecf0f3");
+      setNavBg("#ffffff");
       setLinkColor("#1f2937");
     }
   }, [router]);
@@ -48,7 +48,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src="/logo.png" alt="/" width="125" height="50" />
+          <a></a>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -57,17 +57,17 @@ const Navbar = () => {
             </Link>
             <Link href="/#howitworks">
               <li className="ml-10 text-sm uppercase hover:border-b">
-                How does it work?
+                Wie funktoniert es?
               </li>
             </Link>
             <Link href="/#waitlist">
               <li className="ml-10 text-sm uppercase hover:border-b">
-                Waiting List
+                Warteliste
               </li>
             </Link>
             <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
-                Contact
+                Kontakt
               </li>
             </Link>
           </ul>
@@ -114,12 +114,12 @@ const Navbar = () => {
               </Link>
               <Link href="/#howitworks">
                 <li onClick={() => SetNav(false)} className="py-4 text-sm">
-                  HOW DOES IT WORK?
+                  Wie funktoniert es?
                 </li>
               </Link>
               <Link href="/#waitlist">
                 <li onClick={() => SetNav(false)} className="py-4 text-sm">
-                  Waiting List
+                 Warte
                 </li>
               </Link>
               <Link href="/#contact">
@@ -134,7 +134,7 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
+                <Link href="https://www.linkedin.com/company/contract2human/"><FaLinkedinIn/></Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiOutlineMail />
