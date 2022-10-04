@@ -16,7 +16,7 @@ const Mail = () => {
   }
 
   return (
-    <div id="waitlist" className="text-center bg-white pb-8 ">
+    <div id="waitlist" className=" text-center bg-white mx-auto pb-8 ">
       <div className="">
         <h2>Möchtest du es ausprobieren?</h2>
         <p className="md:text-xl widest uppercase text-red py-2">
@@ -28,29 +28,29 @@ const Mail = () => {
           <div>
             <form onSubmit={handleSubmit(onSubmit)}>
               <div className="flex flex-row justify-center">
-                <div className="flex flex-col  ">
-                  <div className="flex gap-2 flex-row my-2 ">
+                <div className="flex flex-col">
+                  <div className="md:flex md:flex-row md:my-2 md:gap-4">
                     <input
-                      className="border-2 rounded-lg  border-gray-300 md:p-3 text-center"
+                      className="border-2 rounded-lg flex my-2 border-gray-300 md:p-3 text-center "
                       type="text"
                       placeholder="Vorname"
                       {...register("firstName")}
                     />
                     <input
-                      className=" border-2 rounded-lg md:p-3 flex border-gray-300 text-center"
+                      className=" border-2 rounded-lg md:p-3 flex my-2 border-gray-300 text-center "
                       type="text"
                       placeholder="Nachname"
                       {...register("lastName")}
                     />
                   </div>
                   <input
-                    className="border-2 rounded-lg my-2 md:p-3 flex border-gray-300 text-center"
+                    className="border-2 rounded-lg md:p-3 flex border-gray-300 text-center" 
                     type="text"
                     placeholder="E-Mail"
                     {...register("email")}
                   />
-                  <button
-                    className="border-2 rounded-lg flex my-2 md:p-3 border-gray-300 justify-center"
+                  <button type="button"
+                    className={"border-lego border-2 rounded-lg flex my-2 md:p-3 justify-center"}
                     disabled={isSubmitSuccessful}
                   >
                     {isSubmitSuccessful ? "Danke!" : "Trag dich ein."}

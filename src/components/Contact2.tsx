@@ -24,16 +24,16 @@ const Contact2 = () => {
         <div className="">
           <div className="">
             <div className="">
-              <div className="text-start">
-                <p className="py-2 text-start text-gray-600">E-Mail</p>
-                <p>contract2human@gmail.com</p>
-                <p className="py-2 text-start text-gray-600">Telefonnumer</p>
-                <p>+43 699 19003301</p>
-                <p className="py-2 text-start text-gray-600">LinkedIn</p>
-                <div className="md:flex md:justify-start mb-6">
+              <div className="text-end md:text-start mr-auto">
+                <p className="py-2  text-gray-600 mr-2">E-Mail</p>
+                <p className="break-normal">contract2human@gmail.com</p>
+                <p className="py-2  text-gray-600 mr-2">Telefonnumer</p>
+                <p className="mr-2">+43 699 19003301</p>
+                <p className="py-2 text-gray-600 mr-2">LinkedIn</p>
+                <div className="md:flex md:justify-start mb-6 mr-2">
                   <Link
                     href="https://www.linkedin.com/company/contract2human/"
-                    className=" "
+                    className=" mr-2"
                   >
                     <button>
                       <FaLinkedinIn />
