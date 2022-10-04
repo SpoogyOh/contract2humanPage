@@ -7,23 +7,22 @@ import HowItWorks from "../components/HowItWorks";
 import Footer from "../components/Footer";
 import Contact2 from "../components/Contact2";
 
-
 export default function Home() {
   return (
-    <div >
+    <div>
       <Head>
         <title>Contract to Human</title>
         <meta name="description" content="Veträge analysieren" />
-        <link rel="icon" href="/logo.png" />   
+        <link rel="icon" href="/logo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
       <Navbar />
       <Main />
       <HowItWorks />
       <Mail />
       <Contact2 />
       <Footer />
-     
     </div>
   );
 }
