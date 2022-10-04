@@ -16,7 +16,7 @@ const Mail = () => {
   }
 
   return (
-    <div id="waitlist" className="text-center bg-white ">
+    <div id="waitlist" className="text-center bg-white pb-8 ">
       <div className="">
         <h2>Möchtest du es ausprobieren?</h2>
         <p className="md:text-xl widest uppercase text-red py-2">

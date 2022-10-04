@@ -1,10 +1,10 @@
 import Image from "next/image";
 const Footer = () => {
   return (
-    <div className="text-center mt-20 ">
+    <div className="text-center mt-20 mx-6 ">
       <p className="">Unterstützt von:</p>
       <div className="flex flex-row gap-6 place-content-center">
-        <div className="mr-4">
+        <div className="">
           <Image
             src="/UniWien.png"
             alt="/"

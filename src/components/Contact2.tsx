@@ -12,9 +12,9 @@ const Contact2 = () => {
   const {} = trpc.useMutation(["mail.createMail"], {});
 
   return (
-    <div id="contact" className="flex flex-row justify-center gap-8 mt-8">
+    <div id="contact" className="flex flex-row justify-center gap-8 mt-8 mx-6">
       <div className="">
-        <div className="max-w-[1240px] m-auto px-6 ">
+        <div className="max-w-[1240px]">
           <p className="text-xl tracking-widest uppercase text-red">Kontakt.</p>
           <h2 className="">So erreichst du uns.</h2>
         </div>
@@ -24,12 +24,12 @@ const Contact2 = () => {
         <div className="">
           <div className="">
             <div className="">
-              <div className="">
-                <p className="py-2 text-gray-600">E-Mail</p>
+              <div className="text-start">
+                <p className="py-2 text-start text-gray-600">E-Mail</p>
                 <p>contract2human@gmail.com</p>
-                <p className="py-2 text-gray-600">Telefonnumer</p>
+                <p className="py-2 text-start text-gray-600">Telefonnumer</p>
                 <p>+43 699 19003301</p>
-                <p className="py-2 text-gray-600">LinkedIn</p>
+                <p className="py-2 text-start text-gray-600">LinkedIn</p>
                 <div className="md:flex md:justify-start mb-6">
                   <Link
                     href="https://www.linkedin.com/company/contract2human/"
