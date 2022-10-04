@@ -6,7 +6,7 @@ import HowItWorks from "../components/HowItWorks";
 
 import Footer from "../components/Footer";
 import Contact2 from "../components/Contact2";
-import { Container } from "postcss";
+
 
 export default function Home() {
   return (
