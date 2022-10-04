@@ -19,10 +19,7 @@ export default function Home() {
       <Navbar />
       <Main />
       <HowItWorks />
-      <div className="py-80"></div>
       <Mail />
-      <div className="py-2"></div>
-
       <Contact2 />
       <Footer />
     </div>

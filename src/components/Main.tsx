@@ -17,8 +17,8 @@ const Main = () => {
           />
           <br></br>
           <h2 className="py-4">Wir übersetzen juristisch in eine menschliche Sprache.</h2>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Unsere KI-basierte Lösung analysiert einen Vertrag und verschafft unseren Kunden einen Überblick über den Inhalt und alle relevanten rechtlichen Risiken, und das in einer leicht verständlichen Sprache. So können unsere Nutzer in ihrem Berufsleben die richtigen Entscheidungen treffen und Verträge gegebenenfalls neu verhandeln
+          <p className="py-4 text-gray-600 ">
+            Unsere KI-basierte Lösung analysiert einen Vertrag und verschafft unseren Kunden einen Überblick über den Inhalt und alle relevanten rechtlichen Risiken, und das in einer leicht verständlichen Sprache. So können unsere Nutzer in ihrem Berufsleben die richtigen Entscheidungen treffen und Verträge gegebenenfalls neu verhandeln.
           </p>
         </div>
       </div>
