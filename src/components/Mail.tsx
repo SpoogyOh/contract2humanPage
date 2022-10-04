@@ -30,14 +30,14 @@ const Mail = () => {
                   <div className="flex flex-col">
                     <div className="flex flex-row">
                       <input
-                        className="border-2 rounded-lg flex border-gray-300"
+                        className="border-2 rounded-lg flex md:p-3 border-gray-300"
                         type="text"
                         placeholder="Vorname"
                         {...register("firstName")}
                       />
                       <div className="pr-2"></div>
                       <input
-                        className="border-2 rounded-lg  flex border-gray-300"
+                        className="border-2 rounded-lg md:p-3 flex border-gray-300"
                         type="text"
                         placeholder="Nachname"
                         {...register("lastName")}
@@ -45,14 +45,14 @@ const Mail = () => {
                     </div>
                     <div className="pt-4 " />
                     <input
-                      className="border-2 rounded-lg  flex border-gray-300"
+                      className="border-2 rounded-lg md:p-3 flex border-gray-300"
                       type="text"
                       placeholder="E-Mail"
                       {...register("email")}
                     />
                     <div className="pt-4 content-center" />
                     <button
-                      className="border-2 rounded-lg flex border-gray-300 justify-center"
+                      className="border-2 rounded-lg flex md:p-3 border-gray-300 justify-center"
                       disabled={isSubmitSuccessful}
                     >
                       {isSubmitSuccessful ? "Danke!" : "Trag dich ein."}
