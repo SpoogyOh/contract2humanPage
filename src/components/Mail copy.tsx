@@ -17,7 +17,7 @@ const Mail = () => {
 
   return (
     <div id="waitlist" className="w-full text-center bg-white">
-      <div className="max-w-[1240px] m-2 py-16 w-full ">
+      <div className="max-w-[1240px] mt-20 py-16 w-full ">
         <h2 className="py-4">Möchtest du es ausprobieren?</h2>
         <p className="text-xl tracking-widest uppercase text-red">
           Trag dich in die Warteliste ein!

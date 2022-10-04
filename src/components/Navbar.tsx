@@ -71,7 +71,7 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden">
+          <div onClick={handleNav} className="md:hidden mr-4">
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -91,7 +91,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image src="/logo.png" alt="/" width="87" height="35" />
+              <Image src="/cthminilogo.png" alt="/" width="87" height="35" />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer "
@@ -119,12 +119,12 @@ const Navbar = () => {
               </Link>
               <Link href="/#waitlist">
                 <li onClick={() => SetNav(false)} className="py-4 text-sm">
-                 Warte
+                 Warteliste
                 </li>
               </Link>
               <Link href="/#contact">
                 <li onClick={() => SetNav(false)} className="py-4 text-sm">
-                  Contact
+                  Kontakt
                 </li>
               </Link>
             </ul>

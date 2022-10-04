@@ -3,7 +3,7 @@ import Image from "next/future/image";
 
 const HowItWorks = () => {
   return (
-    <div id="howitworks" className="text-center flex justify-center">
+    <div id="howitworks" className="text-center flex justify-center pb-6">
       <div className="max-w-[1240px]">
         <div id="Obertext" className="py-2">
           <h2>Wie funktoniert Contract to Human?</h2>
